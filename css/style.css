@@ -1,0 +1,243 @@
+
+
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    /* background-image: url("../img/SchussPass.jpg"); 
+    background-color:#4B6B3C; --a website said I should add this in case picture cant load (research more(?)
+    background-size: cover;  */
+}
+
+/* =================
+Background Images
+================= */
+
+/* ------Original Background Image, fits all perfectly, but cant add containers on top */
+/* .homeBackgroundImg {
+    max-width: 100%;
+    height: auto;
+  } */
+
+.homeBackgroundImg {
+    background-image: url("../img/schussPass.jpg"); 
+    background-size: cover;
+}
+
+.aboutMe-backgroundImg{
+    background-image: url("../img/waterfallVeteransPark.jpg"); 
+    background-size: cover;
+}
+
+.contact-backgroundImg{
+    background-image: url("../img/waterfallVeteransPark.jpg"); 
+    background-size: cover;
+}
+
+.myServices-backgroundImg{
+    background-image: url("../img/otterCreekBristol.jpg"); 
+    background-size: cover;
+}
+
+.recentProjects-backgroundImg{
+    background-image: url("../img/otterCreekBristol2.jpg"); 
+    background-size: cover;
+}
+
+
+
+/* ================================
+Main header and Navigation Items
+================================ */
+
+
+h1 {
+    /* font-family: 'Lora', serif;    -----Think about adding different font for H1 here */
+    font-weight: 700;
+    color: rgb(37, 104, 37);
+    font-size: 3rem;
+    margin: 0;
+    /* outline: 5px solid green; */
+    text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #4B6B3C;
+    font-size: 0.75rem;
+    margin: 0;
+    padding-top: .5rem;
+    text-shadow: -1px -1px 0 #3B2E1E, 1px -1px 0 #3B2E1E, -1px 1px 0 #3B2E1E, 1px 1px 0 #3B2E1E;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #907A48;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .25em 0;
+    text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E;
+}
+
+nav a:hover {
+    color: #D4BF88;
+    border-bottom: 2px solid #D4BF88;
+    /* background-color: transparent; */
+    /* box-shadow: 0px 15px 25px -5px #E6DEB9; */
+    /* transform: scale(1.03); */
+}
+
+
+nav a:focus {
+    color: #D4BF88;
+}
+
+.current-page {
+    border-bottom: 1px solid #E6DEB9;
+}
+
+.current-page:hover {
+    color: #E6DEB9;
+}
+
+
+/* ------------------ 
+    Layout items 
+------------------ */
+
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header {
+    /* background: #f8f8f8;  --------great off-white color to use */
+    background-color: #3A4928;
+    padding: 2em 3em;
+}
+
+.container-intro{
+    border: 5px solid #3A4928;
+    background-color: rgba(255, 255, 255, 0.60);
+    width: 50%;
+    margin: 5% auto;
+}
+
+.container{
+    border: 5px solid #3A4928;
+    background-color: rgba(255, 255, 255, 0.90);
+    width: 50%;
+    margin: 5% auto;
+}
+
+
+/* ========
+Front Page
+======= */
+
+.frontPage{
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 25%;
+    /* border: 2px red solid; */
+}
+
+.frontPage h2{
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E;
+
+    
+}
+
+.frontPage p{
+    font-size: 2.75rem;
+    margin: 0;
+    color:#D4BF88;
+    font-weight: 700;
+    text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E;
+
+}
+
+
+
+/* ===========
+About Me Page
+======= */
+
+
+.selfPic{
+    width: 100%;
+    max-width: 10em;
+    border-radius: 50%;
+}
+
+h2 {
+    /* font-family: 'Lora', serif;    -----Think about adding different font for H1 here */
+    font-weight: 700;
+    color: rgb(37, 104, 37);
+    font-size: 2rem;
+    margin: 0;
+    /* outline: 5px solid green; */
+    /* text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E; */
+}
+
+
+.h2IntroStyle {
+    color: #4B6B3C;
+}
+
+p{
+    margin-bottom: 2em
+}
+
+.sectionOne p{
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+.home-btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #3A4928;
+    color:#4B6B3C;
+    font-weight: 700;
+    margin: 50% auto;
+}
+
+.home-btn:hover,
+.home-btn:focus{
+    background-color: #4B6B3C;
+    color:#907A48;
+    border: 4px solid #D4BF88;
+}  
+
+/* 
+The Forest Tones Color Scheme palette has 6 colors which are:
+Fern Green (#4B6B3C)
+Kombu Green (#3A4928)
+Bistre (#3B2E1E)
+Dark Tan (#907A48)
+Tan (#D4BF88)
+Dutch White (#E6DEB9) */
