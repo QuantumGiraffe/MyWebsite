@@ -11,10 +11,10 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    /* background-image: url("../img/SchussPass.jpg"); 
-    background-color:#4B6B3C; --a website said I should add this in case picture cant load (research more(?)
-    background-size: cover;  */
+    background-color:#4B6B3C;
+    background-size: cover;  
 }
+
 
 /* =================
 Background Images
@@ -64,14 +64,13 @@ h1 {
     color: rgb(37, 104, 37);
     font-size: 3rem;
     margin: 0;
-    /* outline: 5px solid green; */
     text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E;
 }
 
 .subtitle {
     font-weight: 700;
     color: #4B6B3C;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin: 0;
     padding-top: .5rem;
     text-shadow: -1px -1px 0 #3B2E1E, 1px -1px 0 #3B2E1E, -1px 1px 0 #3B2E1E, 1px 1px 0 #3B2E1E;
@@ -131,15 +130,13 @@ nav a:focus {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    /* border: 1px solid red; */
 }
 
 header {
-    /* background: #f8f8f8;  --------great off-white color to use */
+  
     background-color: #3A4928;
     padding: 2em 3em;
     text-align: center;
-    /* border: 2px solid yellow; */
 }
 
 .container-intro{
@@ -154,6 +151,7 @@ header {
     background-color: rgba(255, 255, 255, 0.90);
     width: 50%;
     margin: 5% auto;
+    line-height: 1.5rem;
 }
 
 
@@ -204,6 +202,7 @@ h2 {
     font-weight: 700;
     color: rgb(37, 104, 37);
     font-size: 2rem;
+    padding-top: .5rem;
     margin: 0;
     /* outline: 5px solid green; */
     /* text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E; */
@@ -232,7 +231,7 @@ p{
     background-color: #3A4928;
     color:#4B6B3C;
     font-weight: 700;
-    margin: 50% auto;
+    margin: 50px auto;
 }
 
 .home-btn:hover,
@@ -243,9 +242,13 @@ p{
 }  
 
 
+.aboutMeSpacing {
+    padding-top: 1.75rem;
+    padding-bottom: 1rem;
+}
+
 
 /* Trying to get the button on the about me page centered vertically */
-
 /* .endContainer {
     display: flex;
     flex-direction: column;
@@ -253,8 +256,18 @@ p{
 } */
 
 
+/* ======================= */
+/* CONTACT PAGE */
+/* ======================= */
 
 
+h3 {
+    font-weight: 700;
+    color: rgb(37, 104, 37);
+    margin: 0;
+    line-height: 2rem;
+   
+}
 
 
 
@@ -293,30 +306,6 @@ p{
 
 
 
-
-
-
-/* I think I can delete the following below, Ill leave it for now though 4.5.22 */
-/* nav ul {
-    border: solid 1px orange;
-} */
-
-/* .site-title {
-    border: 2px solid purple; }*/
-
-/* @media (max-width: 675px) {
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav li {
-        margin: .5em 0;
-    }
-} */
-
-
-
- 
 /* 
 The Forest Tones Color Scheme palette has 6 colors which are:
 Fern Green (#4B6B3C)
