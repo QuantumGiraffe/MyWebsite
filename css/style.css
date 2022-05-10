@@ -1,6 +1,11 @@
 
 
 
+/* ==========================
+MY VERY FIRST WEBSITE YEEE
+========================== */
+
+
 body{
     text-align: center;
     margin: 0;
@@ -239,11 +244,36 @@ p{
 
 
 
+/* Trying to get the button on the about me page centered vertically */
+
+/* .endContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+/* ======================= */
+/* MOBILE FORMATTING */
+/* ======================= */
+
+/* NOTE: might need to alter the widths if length of nav button bar changes */
 @media (max-width: 1200px) {
     .container-nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    nav a {
+        text-shadow: -2px -2px 0 #3B2E1E, 2px -2px 0 #3B2E1E, -2px 2px 0 #3B2E1E, 2px 2px 0 #3B2E1E;
     }
 }
 
@@ -255,8 +285,18 @@ p{
     nav li {
         margin: .5em auto;
     }
+    nav a {
+        text-shadow: -1px -1px 0 #3B2E1E, 1px -1px 0 #3B2E1E, -1px 1px 0 #3B2E1E, 1px 1px 0 #3B2E1E;
+        /* need to make the shadow-borders smaller so it doesn't look awkward all zoomed it */
+    }
 }
 
+
+
+
+
+
+/* I think I can delete the following below, Ill leave it for now though 4.5.22 */
 /* nav ul {
     border: solid 1px orange;
 } */
