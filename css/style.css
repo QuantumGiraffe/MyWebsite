@@ -20,19 +20,24 @@ body{
 Background Images
 ================= */
 
-/* ------Original Background Image, fits all perfectly, but cant add containers on top */
-/* .homeBackgroundImg {
-    max-width: 100%;
-    height: auto;
-  } */
-
 .homeBackgroundImg {
     background-image: url("../img/schussPass.jpg"); 
     background-size: cover;
 }
 
 .aboutMe-backgroundImg{
-    background-image: url("../img/waterfallVeteransPark.jpg"); 
+    /* background-image: url("../img/waterfallVeteransPark.jpg");  <- Original Picture Here*/
+    background-image: url("../img/singleFall.jpg");
+    background-size: cover;
+}
+
+.recentProjects-backgroundImg{
+    background-image: url("../img/otterCreekBristol2.jpg"); 
+    background-size: cover;
+}
+
+.photography-backgroundImg{
+    background-image: url("../img/otterCreekBristol.jpg"); 
     background-size: cover;
 }
 
@@ -41,15 +46,9 @@ Background Images
     background-size: cover;
 }
 
-.myServices-backgroundImg{
-    background-image: url("../img/otterCreekBristol.jpg"); 
-    background-size: cover;
-}
 
-.recentProjects-backgroundImg{
-    background-image: url("../img/otterCreekBristol2.jpg"); 
-    background-size: cover;
-}
+
+
 
 
 
@@ -267,10 +266,11 @@ p{
 .container-projects{
     border: 5px solid #3A4928;
     background-color: rgba(255, 255, 255, 0.90);
-    width: 50%;
+    width: 60%;
     margin: 2% auto;
     line-height: 1.5rem;
 }
+
 
 .word-style1{
     font-weight: 700;
@@ -284,7 +284,19 @@ p{
 
 .word-style3{
     font-weight: 700;
-    color:rgb(223, 223, 60);
+    color:orange;
+}
+
+.project-picture1{
+    max-width: 40%;
+    border: 10px solid #bc9335;
+}
+
+
+.project-picture2{
+    max-width: 75%;
+    border: 10px solid #bc9335;
+
 }
 
 /* ======================= */
