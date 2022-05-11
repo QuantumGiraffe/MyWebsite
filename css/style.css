@@ -70,7 +70,7 @@ h1 {
 .subtitle {
     font-weight: 700;
     color: #4B6B3C;
-    font-size: 0.85rem;
+    font-size: 1rem;
     margin: 0;
     padding-top: .5rem;
     text-shadow: -1px -1px 0 #3B2E1E, 1px -1px 0 #3B2E1E, -1px 1px 0 #3B2E1E, 1px 1px 0 #3B2E1E;
@@ -99,7 +99,7 @@ nav a {
     text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E;
 }
 
-nav a:hover {
+a:hover {
     color: #D4BF88;
     border-bottom: 2px solid #D4BF88;
     /* background-color: transparent; */
@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 
-nav a:focus {
+a:focus {
     color: #D4BF88;
 }
 
@@ -139,7 +139,7 @@ header {
     text-align: center;
 }
 
-.container-intro{
+.container-titles{
     border: 5px solid #3A4928;
     background-color: rgba(255, 255, 255, 0.60);
     width: 50%;
@@ -153,6 +153,8 @@ header {
     margin: 5% auto;
     line-height: 1.5rem;
 }
+
+
 
 
 /* ========
@@ -203,6 +205,7 @@ h2 {
     color: rgb(37, 104, 37);
     font-size: 2rem;
     padding-top: .5rem;
+    padding-bottom: .5rem;
     margin: 0;
     /* outline: 5px solid green; */
     /* text-shadow: -3px -3px 0 #3B2E1E, 3px -3px 0 #3B2E1E, -3px 3px 0 #3B2E1E, 3px 3px 0 #3B2E1E; */
@@ -217,7 +220,7 @@ p{
     margin-bottom: 2em
 }
 
-.sectionOne p{
+.textFormat p{
     text-align: left;
     margin-left: 1em;
     margin-right: 1em;
@@ -225,17 +228,17 @@ p{
 
 
 
-.home-btn{
+.about-btn{
     text-decoration: none;
     padding: 10px 25px;
-    background-color: #3A4928;
-    color:#4B6B3C;
+    background-color: #485b32;
+    color:#c1a769;
     font-weight: 700;
     margin: 50px auto;
 }
 
-.home-btn:hover,
-.home-btn:focus{
+.about-btn:hover,
+.about-btn:focus{
     background-color: #4B6B3C;
     color:#907A48;
     border: 4px solid #D4BF88;
@@ -248,13 +251,41 @@ p{
 }
 
 
-/* Trying to get the button on the about me page centered vertically */
-/* .endContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
+/* ======================= */
+/* RECENT PROJECTS */
+/* ======================= */
+
+
+.container-titles-projects{
+    border: 5px solid #3A4928;
+    background-color: rgba(255, 255, 255, 0.60);
+    width: 50%;
+    margin: 5% auto 0;
+}
+
+.container-projects{
+    border: 5px solid #3A4928;
+    background-color: rgba(255, 255, 255, 0.90);
+    width: 50%;
+    margin: 2% auto;
+    line-height: 1.5rem;
+}
+
+.word-style1{
+    font-weight: 700;
+    color:red;
+}
+
+.word-style2{
+    font-weight: 700;
+    color:blue;
+}
+
+.word-style3{
+    font-weight: 700;
+    color:rgb(223, 223, 60);
+}
 
 /* ======================= */
 /* CONTACT PAGE */
