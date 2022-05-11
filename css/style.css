@@ -265,7 +265,7 @@ h3 {
     font-weight: 700;
     color: rgb(37, 104, 37);
     margin: 0;
-    line-height: 2rem;
+    line-height: 3rem;
    
 }
 
@@ -275,8 +275,9 @@ h3 {
     color: #D4BF88;
 }
 
-
-
+.container-contact {
+    word-break: break-all;
+}
 
 /* ======================= */
 /* MOBILE FORMATTING */
@@ -284,6 +285,11 @@ h3 {
 
 /* NOTE: might need to alter the widths if length of nav button bar changes */
 @media (max-width: 1200px) {
+    
+    .container{
+        width: 75%;
+    }
+
     .container-nav {
         flex-direction: column;
         justify-content: center;
@@ -295,12 +301,17 @@ h3 {
 }
 
 @media (max-width: 900px) {
+
+    .container{
+        width: 90%;
+    }
+
     nav ul {
     flex-direction: column;
     justify-content: center;
     }
     nav li {
-        margin: .5em auto;
+        margin: .75em auto;
     }
     nav a {
         text-shadow: -1px -1px 0 #3B2E1E, 1px -1px 0 #3B2E1E, -1px 1px 0 #3B2E1E, 1px 1px 0 #3B2E1E;
