@@ -34,22 +34,83 @@
  
       <section1>
 
-         <div class = "container-titles">
-            <h2>My Photography</h2>
-         </div>
+        <div class = "container-titles">
+          <h2>My Photography</h2>
+        </div>
 
-         <div class = " container">
-            <div class ="textFormat">
-              <p>I am an amateur photographer, all of the photos on this website were taken by me!
-                Living near the Green Mountains in the scenic state of Vermont, photography 
-                comes natually and easily. I love snapping photos, hiking, and rockhounding.
-                Many of my hobbies are spent outside in the great outdoors. Check back here for updates!
-              </p>
+        <div class = "container-carousel">
+          <div class ="textFormat">
+            <p>I am an amateur photographer, all of the photos on this website were taken by me!
+              Living near the Green Mountains in the scenic state of Vermont, photography 
+              comes natually and easily. I love snapping photos, hiking, and rockhounding.
+              Many of my hobbies are spent outside in the great outdoors. Currently there are 14 images in 
+              the carousel. I am working on adding more, as well as a counter to let you know which number
+              picture you are seeing. Check back here for updates.
+            </p>
+          </div>
+        </div>
+
+        <!-- NEW CODE HERE--------------------------------------------------------------------------------------- -->
+       
+
+        <div class= "container-carousel-viewer">   
+            
+            <div class="carousel">
+              <div class="carousel-item carousel-item-visible">
+                  <img src="../img/1.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/2.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/3.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/4.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/5.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/6.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/7.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/8.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/9.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/10.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/11.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/12.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/13.jpg" />
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/14.jpg" />
+              </div>
+             
+              <div class="carousel-actions">
+                  <button id="carousel-button-prev" aria-label="Previous Slidex"><</button>
+                  <button id="carousel-button-next" aria-label="Next Slide">></button>
+              </div>
             </div>
-         </div>
+            <!-- <p class="counter">1/10</p> -->
+        </div>
+
+        <!-- =========================================================================================================== -->
 
       </section1>
  
- 
+      <script src="../index.js"></script>
    </body>
 </html>

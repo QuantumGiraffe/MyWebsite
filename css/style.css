@@ -158,7 +158,7 @@ header {
 
 /* ========
 Front Page
-======= */
+=========== */
 
 .splashWordsContainer{
     text-align: left;
@@ -189,7 +189,7 @@ Front Page
 
 /* ===========
 About Me Page
-======= */
+============== */
 
 
 .selfPic{
@@ -299,6 +299,96 @@ p{
 }
 
 
+/* ======================= */
+/* PHOTOGRAPHY */
+/* ======================= */
+
+
+.carousel {
+    /* max-width: 600px; */
+    max-width: 100%;
+    position: relative;
+
+}
+
+.container-carousel{
+    border: 5px solid #3A4928;
+    background-color: rgba(255, 255, 255, 0.90);
+    width: 80%;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+
+.container-carousel-viewer{
+    border: 25px solid #3A4928;
+    background-color: #4B6B3C;
+    width: 80%;
+    margin: 3% auto;
+}
+
+.counter{
+    border: 3px solid red;
+
+}
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
+    display: none;
+    margin: 5% auto;
+    margin-bottom: 5%
+   
+}
+
+.carousel .carousel-item-visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 10px solid #3A4928;
+}
+
+.carousel .carousel-actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel-actions button {
+    border-radius: 50px;
+    background-color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel .carousel-actions button#carousel-button-prev {
+    margin-left: 10%;
+}
+
+.carousel .carousel-actions button#carousel-button-next {
+    margin-right: 10%;   
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 
 
@@ -325,6 +415,9 @@ h3 {
 .container-contact {
     word-break: break-all;
 }
+
+
+
 
 /* ======================= */
 /* MOBILE FORMATTING */
